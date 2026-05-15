@@ -1,0 +1,24 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#0a0a0a;color:#fff;line-height:1.6}
+nav{display:flex;align-items:center;gap:15px;padding:20px 40px}
+.logo{width:56px;height:56px;border-radius:16px;background:linear-gradient(135deg,#f8e27a,#b8860b);color:#000;
+display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:28px}
+.brand{font-size:24px;font-weight:700}
+.hero{min-height:90vh;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)),url('images/project-1.jpg') center/cover}
+.hero-content{max-width:900px;padding:80px 40px}
+h1{font-size:56px;margin:0 0 20px}
+h2{font-size:42px;text-align:center;color:#d4af37}
+p{font-size:18px}
+.btn{display:inline-block;margin:10px 10px 0 0;padding:14px 28px;background:#d4af37;color:#000;text-decoration:none;border-radius:8px;font-weight:700}
+.btn.secondary{background:#fff}
+.about,.gallery,.reviews,.contact{padding:70px 30px;max-width:1300px;margin:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px}
+.card{background:#111;border-radius:18px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.35)}
+.card img{width:100%;height:260px;object-fit:cover}
+.card-body{padding:20px}
+.review-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.review{background:#111;padding:25px;border-left:4px solid #d4af37;border-radius:12px}
+.contact{text-align:center}
+footer{text-align:center;padding:25px;background:#000;color:#aaa}
+@media(max-width:768px){h1{font-size:38px}.brand{font-size:20px}nav{padding:20px}.hero-content{padding:40px 20px}}
