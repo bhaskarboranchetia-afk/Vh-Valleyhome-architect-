@@ -1,1 +1,0 @@
-# ValleyHome Architect
